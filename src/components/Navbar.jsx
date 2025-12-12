@@ -63,7 +63,7 @@ export default function Navbar({ config }) {
               href={ctaButton.url}
               target="_blank"
               rel="noopener noreferrer"
-              className={`px-6 py-2 rounded-full font-bold transition-transform hover:scale-105 flex items-center gap-2 ${ctaButton.className}`}
+              className={`px-6 py-2 rounded-full font-bold transition-transform shadow-none hover:scale-105 flex items-center gap-2 ${ctaButton.className}`}
             >
               <Phone size={18} />
               {ctaButton.label}

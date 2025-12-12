@@ -46,7 +46,7 @@ export default function Hero({ data }) {
   const componentsMap = {
     badge: showBadge && (
       <motion.div key="badge" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }} className="mb-6">
-        <span className="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-brand-primary/10 border border-brand-primary/20 text-brand-primary text-sm font-medium tracking-wide backdrop-blur-sm">
+        <span className="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-yellow-500/40 border border-brand-primary/20 text-white/80 text-sm font-medium tracking-wide backdrop-blur-sm">
           {badgeText || "Bem-vindo"}
         </span>
       </motion.div>
@@ -91,7 +91,7 @@ export default function Hero({ data }) {
                 min-w-[290px] max-w-[300px] 
                 rounded-full font-bold text-lg transition-all shadow-lg cursor-pointer
                 ${isPrimary 
-                  ? 'bg-brand-primary text-black hover:bg-brand-secondary shadow-[0_0_20px_rgba(234,179,8,0.3)]' 
+                  ? 'bg-brand-primary text-white hover:bg-brand-secondary shadow-[0_0_20px_rgba(234,179,8,0.3)]' 
                   : 'bg-white/5 text-white backdrop-blur-md border border-white/20 hover:bg-white/10 hover:border-white/40'
                 }
               `}
@@ -111,7 +111,7 @@ export default function Hero({ data }) {
       {/* BACKGROUND */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-nivix-black z-10 transition-opacity duration-700" style={{ opacity }}></div>
-        <img src={bgImage} alt="Background" className="w-full h-full object-cover scale-105 animate-pulse-slow" />
+        <img src={bgImage} alt="Background" className="w-full h-full object-cover scale-105 animate-pulse-slow saturate-0 brightness-50" />
       </div>
 
       {/* CONTEÚDO PRINCIPAL */}

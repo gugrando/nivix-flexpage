@@ -16,8 +16,8 @@ export default {
         // Cores do CLIENTE (Editáveis para cada projeto)
         // Por padrão, deixamos igual ao da Nivix para o template
         brand: {
-          primary: '#EAB308',  // Cor principal (Botões, Destaques)
-          secondary: '#CA8A04', // Cor secundária (Hover, bordas)
+          primary: '#640505',  // Cor principal (Botões, Destaques)
+          secondary: '#BA002B', // Cor secundária (Hover, bordas)
           accent: '#FACC15',    // Cor de brilho/texto claro
         },
 

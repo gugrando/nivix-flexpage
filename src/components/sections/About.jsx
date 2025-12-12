@@ -72,7 +72,7 @@ export default function About({ data }) {
               const blocks = {
                 // SUBTÍTULO
                 subtitle: (
-                  <h4 key="subtitle" className="text-brand-primary font-bold tracking-widest uppercase text-sm">
+                  <h4 key="subtitle" className="text-yellow-400 font-bold tracking-widest uppercase text-sm">
                     {subtitle}
                   </h4>
                 ),

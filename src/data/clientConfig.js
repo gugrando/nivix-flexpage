@@ -4,19 +4,19 @@ export const clientConfig = {
 social: [
     { 
       id: "instagram", 
-      url: "https://instagram.com/nivix", 
+      url: "https://instagram.com/grattopizzas", 
       active: true, 
-      label: "Instagram" // para acessibilidade/SEO
+      label: "Instagram da Gratto" // para acessibilidade/SEO
     },
     { 
       id: "whatsapp", 
-      url: "https://wa.me/5599999999", 
+      url: "https://wa.me/5491834554", 
       active: true, 
       label: "WhatsApp"
     },
     { 
       id: "facebook", 
-      url: "#", 
+      url: "https://www.facebook.com/grattopizzasgourmet", 
       active: true, 
       label: "Facebook"
     },
@@ -29,17 +29,17 @@ social: [
   ],
 
   general: {
-    brandName: "La Mamma",
+    brandName: "Gratto",
     whatsapp: "5511999999999"
   },
 
   header: {
     logo: {
       type: 'text', // 'image' ou 'text'
-      text: 'La Mamma',
+      text: 'Gratto Pizzas',
       accentColor: 'text-brand-primary',
       imageUrl: '', 
-      altText: 'La Mamma Pizzaria'
+      altText: 'Gratto Pizzas'
     },
     style: {
       bgColorScrolled: 'bg-bg-main',
@@ -55,13 +55,13 @@ social: [
     ctaButton: {
       visible: true,
       label: 'Pedir no Whats',
-      url: 'https://wa.me/55999999999',
-      className: 'bg-brand-primary text-black hover:bg-brand-secondary shadow-[0_0_15px_rgba(234,179,8,0.3)]'
+      url: 'https://wa.me/5491834554',
+      className: 'bg-brand-primary text-white hover:bg-brand-secondary shadow-[0_0_15px_rgba(234,179,8,0.3)]'
     }
   },
 footer: {
     // Texto descritivo
-    brandSlogan: "A melhor experiência gastronômica da cidade.",
+    brandSlogan: "A melhor pizza Gourmet da cidade é na Gratto!",
     copyrightText: "Todos os direitos reservados.",
     
     // Links de Navegação
@@ -102,10 +102,10 @@ footer: {
   sections: {
     hero: {
   // --- CONTEÚDO (O que aparece) ---
-  headline: "Experiência Gastronômica Inesquecível",
-  subheadline: "Ingredientes selecionados, ambiente acolhedor e o sabor que você já conhece.",
-  badgeText: "Bem-vindo à Experiência Nivix",
-  bgImage: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1920&auto=format&fit=crop",
+  headline: "Pizza Gourmet de Qualidade",
+  subheadline: "Ingredientes selecionados, massa fermentada e o melhor sabor da cidade.",
+  badgeText: "Bem-vindo à Experiência Gratto",
+  bgImage: "/bggrt.png",
   
   // --- VISIBILIDADE (O que existe ou não - ON/OFF) ---
   visibility: {
@@ -142,7 +142,7 @@ footer: {
     },
     { 
       label: "Chamar no WhatsApp", 
-      url: "https://wa.me/...", 
+      url: "https://wa.me/5491834554", 
       variant: "outline", 
       icon: "whatsapp" 
     }
@@ -150,8 +150,8 @@ footer: {
 },
 highlights: {
   // --- CONTEÚDO DE TEXTO ---
-  title: "Os Favoritos da Casa",
-  subtitle: "Nossas receitas mais pedidas, preparadas com ingredientes selecionados.",
+  title: "Os Favoritos na Gratto",
+  subtitle: "Nossos mais pedidos, ingredientes premium e sabor especial.",
   
   layout: {
     bgStyle: 'surface', 
@@ -175,72 +175,71 @@ highlights: {
   items: [
     {
       id: 1,
-      name: "Marguerita Speciale",
-      description: "Molho de tomate pelati, mussarela de búfala, manjericão fresco e azeite trufado.",
+      name: "Xis da Gratto",
+      description: "Todos os sabores premiums da Gratto, o melhor da cidade!",
       price: "R$ 68,00",
-      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=1000&auto=format&fit=crop",
+      image: "/xisp.png",
       badge: "Mais Pedida", // Opcional
-      link: "https://wa.me/...?text=Quero+a+Marguerita" // Link direto do produto
+      link: "https://wa.me/5491834554?text=Quero+a+Marguerita" // Link direto do produto
     },
     {
       id: 2,
-      name: "Calabresa Defumada",
-      description: "Calabresa artesanal defumada, cebola roxa caramelizada e orégano fresco.",
+      name: "Pizza GG",
+      description: "Os melhores sabores da casa em promoção!",
       price: "R$ 62,00",
       image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1000&auto=format&fit=crop",
       badge: "Oferta",
-      link: "https://wa.me/...?text=Quero+a+Calabresa"
+      link: "https://wa.me/5491834554?text=Quero+a+Marguerita"
     },
     {
       id: 3,
-      name: "Burrata & Parma",
-      description: "Base branca, burrata inteira no centro, presunto de parma e rúcula selvagem.",
+      name: "Açai Gratto",
+      description: "Cremoso e com adicionais perfeitos",
       price: "R$ 85,00",
       image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1000&auto=format&fit=crop",
-      link: "https://wa.me/...?text=Quero+a+Burrata"
+      link: "https://wa.me/5491834554?text=Quero+a+Marguerita"
     }
   ]
 },// src/data/clientConfig.js
 
 about: {
   // --- CONTEÚDO ---
-  title: "Nossa História",
-  subtitle: "Mais que uma pizzaria, uma tradição de família.",
-  text: "Fundada em 1998, a La Mamma nasceu do sonho de trazer a autêntica receita napolitana para o Brasil. Nossa massa descansa por 48 horas e nossos ingredientes são selecionados a dedo todos os dias.",
+  title: "A Experiência Gratto",
+  subtitle: "Pizza premium saborosa, entregue no conforto da sua casa.",
+  text: "Mais do que uma pizzaria, a Gratto quer fazer parte da sua noite em casa. Acreditamos que pizza boa é aquela feita com atenção aos detalhes e ingredientes que a gente conhece e ama. Por isso, nossa seleção é cuidadosa, buscando sempre o sabor mais gostoso. Trabalhamos só com entrega e retirada para que você tenha a melhor pizza do bairro, sem precisar tirar o pijama.",
   
-  // Imagens
+  // Imagens (Mantive as originais pois o pedido era só sobre as copys de texto)
   images: [
     "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=600&auto=format&fit=crop", 
     "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=600&auto=format&fit=crop"
   ],
 
+  // Stats (Adaptados para focar em qualidade e modelo de negócio, não apenas tempo)
   stats: [
-    { value: "25+", label: "Anos de História" },
-    { value: "15k", label: "Clientes Felizes" },
-    { value: "4.9", label: "Nota no Google" },
-    { value: "5k+", label: "Seguidores" },
+    { value: "4.9", label: "Excelência em Avaliações" },
+    { value: "24h+", label: "Mínimo de Fermentação Natural" },
+    { value: "100%", label: "Foco na Experiência em Casa" },
+    { value: "Premium", label: "Curadoria de Ingredientes" },
   ],
 
+  // Features (Focados nos diferenciais competitivos da Gratto)
   features: [
-    "Ingredientes Importados",
-    "Ambiente Pet Friendly",
-    "Forno a Lenha Certificado",
-    "Estacionamento Gratuito"
+    "Ingredientes de ponta",
+    "Massa de longa fermentação, leve e digerível",
+    "Delivery e Retirada",
+    "Combinações autorais e sofisticadas"
   ],
 
-  // Botão opcional dentro do Sobre Nós
+  // Botão opcional dentro do Sobre Nós (Caso ativem no futuro)
   ctaButton: {
-    label: "Conheça o Chef",
-    url: "#chef"
+    label: "Explore o Menu Autoral",
+    url: "#menu",
   },
 
-  // --- CONFIGURAÇÃO VISUAL ---
+  // --- CONFIGURAÇÃO VISUAL (Mantida conforme seu input original) ---
   layout: {
     bgStyle: 'main', 
-    align: 'left', // Imagem na esquerda
-    
-    // --- A NOVA MÁGICA: ORDEM DO CONTEÚDO ---
-    // Defina o que aparece primeiro na coluna de texto
+    align: 'left', 
     contentRenderOrder: ['subtitle', 'title', 'text', 'features', 'stats', 'action'],
   },
 
@@ -248,33 +247,33 @@ about: {
     showStats: true,
     showFeatures: true,
     showImages: true,
-    showButton: false // Deixei false por padrão, ative se quiser testar
+    showButton: false // Mantido false, mas a copy do botão foi atualizada acima
   }
 },// src/data/clientConfig.js
 
 location: {
   // --- CABEÇALHO ---
   title: "Onde Estamos",
-  subtitle: "Venha nos visitar ou peça no conforto de casa.",
+  subtitle: "Venha nos visitar para retirada ou peça no conforto de casa.",
   
   // --- DADOS DE ENDEREÇO ---
-  address: "Rua das Flores, 123 - Centro, São Paulo - SP",
-  mapLink: "https://maps.google.com/...", // Link para abrir o app do GPS
+  address: "R. Dalci F. de Andrade, 524 - Primeiro de Maio, Farroupilha - RS",
+  mapLink: "https://www.google.com/maps/dir/Gratto+Pizzas+Gourmet/R.+Dalci+F.+de+Andrade,+524+-+Primeiro+de+Maio,+Farroupilha+-+RS,+95180-000/@-29.2441243,-51.3371962,14z/data=!4m13!4m12!1m5!1m1!1s0x951c1f8426f2a5c1:0xd25f2520f1616dbd!2m2!1d-51.3496161!2d-29.2435364!1m5!1m1!1s0x951c1f8426f2a5c1:0xd25f2520f1616dbd!2m2!1d-51.3496161!2d-29.2435364?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D", // Link para abrir o app do GPS
   
   // Link EMBED (Google Maps -> Compartilhar -> Incorporar mapa -> Copiar apenas o src="URL")
-  mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197577867296!2d-46.6565!3d-23.5615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzQxLjQiUyA0NsKwMzknMjMuNCJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr",
+  mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27850.55455954519!2d-51.38769149780275!3d-29.243569844102154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951c1f8426f2a5c1%3A0xd25f2520f1616dbd!2sGratto%20Pizzas%20Gourmet!5e0!3m2!1spt-BR!2sbr!4v1765557924205!5m2!1spt-BR!2sbr",
 
   // --- HORÁRIOS ---
   hours: [
-    { day: "Segunda", time: "Fechado", highlight: false },
-    { day: "Ter a Qui", time: "18h00 - 23h00", highlight: false },
-    { day: "Sex e Sáb", time: "18h00 - 00h00", highlight: true }, // Highlight: Amarelo
+    { day: "Segunda", time: "18h00 - 22h30", highlight: false },
+    { day: "Ter a Qui", time: "18h00 - 22h30", highlight: false },
+    { day: "Sex e Sáb", time: "18h00 - 23h00", highlight: true }, // Highlight: Amarelo
     { day: "Dom", time: "18h00 - 23h00", highlight: false }
   ],
 
   // --- CONFIGURAÇÃO VISUAL ---
   serviceTags: [
-    { label: "Salão", active: true, icon: "utensils" },
+    { label: "Salão", active: false, icon: "utensils" },
     { label: "Retirada", active: true, icon: "bag" },
     { label: "Delivery", active: true, icon: "bike" },
     { label: "Pet Friendly", active: false, icon: "paw" } // Exemplo extra

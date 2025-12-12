@@ -58,7 +58,7 @@ export default function Highlights({ data }) {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                   
                   {showBadges && item.badge && (
-                    <div className="absolute top-4 left-4 bg-brand-primary text-black text-xs font-bold px-3 py-1 rounded-full shadow-lg flex items-center gap-1 z-10">
+                    <div className="absolute top-4 left-4 bg-yellow-500 text-black text-xs font-bold px-3 py-1 rounded-full shadow-lg flex items-center gap-1 z-10">
                       <Star size={12} fill="black" /> {item.badge}
                     </div>
                   )}
@@ -68,11 +68,11 @@ export default function Highlights({ data }) {
               // 2. HEADER (Título e Preço)
               header: (
                 <div key="header" className="px-6 pt-6 flex justify-between items-center shrink-0">
-                  <h3 className="text-xl font-bold text-white group-hover:text-brand-primary transition-colors leading-tight">
+                  <h3 className="text-xl font-bold text-white group-hover:text-gray-300 transition-colors leading-tight">
                     {item.name}
                   </h3>
                   {showPrice && (
-                    <span className="text-brand-primary font-bold text-lg whitespace-nowrap ml-4 bg-white/5 px-2 py-1 rounded-md">
+                    <span className="text-green-600 font-bold text-lg whitespace-nowrap ml-4 bg-white/5 px-2 py-1 rounded-md">
                       {item.price}
                     </span>
                   )}
@@ -95,7 +95,7 @@ export default function Highlights({ data }) {
                     <a 
                       href={item.link} 
                       target="_blank"
-                      className="w-full py-3 px-4 rounded-xl border border-white/10 text-white font-medium hover:bg-brand-primary hover:text-black hover:border-brand-primary transition-all flex items-center justify-center gap-2 group/btn shadow-lg"
+                      className="w-full py-3 px-4 rounded-xl border border-white/10 text-white font-medium hover:bg-green-600 hover:text-black hover:border-white transition-all flex items-center justify-center gap-2 group/btn shadow-lg"
                     >
                       <ShoppingBag size={18} className="group-hover/btn:animate-bounce" />
                       Pedir Agora
